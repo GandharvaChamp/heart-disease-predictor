@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load model and other components
-model = joblib.load('logisticRegression.pkl')
+model = joblib.load('LogisticRegression.pkl')
 scaler = joblib.load('scaler.pkl')
 columns = joblib.load('columns.pkl')
 
